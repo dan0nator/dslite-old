@@ -10,6 +10,7 @@ import {
 } from 'bootstrap-4-react';
 
 import './App.css';
+import logo from './images/DS.jpg'
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
       <form className="form-signin">
         <BImg
           mb="4"
-          src="https://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg"
+          src={logo}
           width="72"
           height="72"
         />

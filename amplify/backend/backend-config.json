@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "dslitea73fcd2f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
